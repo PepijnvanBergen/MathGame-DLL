@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace DevMath
 {
@@ -51,10 +50,10 @@ namespace DevMath
             return angle;
         }
 
-        public static Vector2 DirectionFromAngle(float angle)
-        {
-            return -DevMath.RadToDeg((float)Math.Atan2(v.x, v.y));
-        }
+        //public static Vector2 DirectionFromAngle(float angle)
+        //{
+        //    //return -DevMath.RadToDeg((float)Math.Atan2(v.x, v.y));
+        //}
 
         public static Vector2 operator +(Vector2 v1, Vector2 v2)
         {
